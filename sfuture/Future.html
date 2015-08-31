@@ -1,0 +1,4401 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+	<title>sfuture Class: Future</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	
+	<link type="text/css" rel="stylesheet" href="styles/site.cerulean.css">
+	
+	<style>
+		.sideMenu
+		{
+			margin-left: 320px!important;
+
+		}
+		#main
+		{
+			margin-top: 46px;
+		}
+		#mainMenu
+		{
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			
+		}
+
+		#searchBox
+		{
+			vertical-align: none !important;
+			padding-right: 0px;
+			width:238px;
+
+		}
+		.sideMargin
+		{
+			margin-left: 15px;
+		}
+		.sunlight-code-container
+		{
+			border:none!important;
+		}
+		.navTitle
+		{
+			font-size:15px;
+			padding:0px;
+
+		}
+		.nav-list
+		{
+			width: 100%;
+		}
+		.nav-list
+		{
+			padding-left:20px;
+		}		
+		.nav-list li
+		{
+			line-height: 16px;
+		}
+		.handCursor
+		{
+			cursor: pointer;
+		}
+		.nav-pills > li > a {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+
+		#projectTitle
+		{
+			position: fixed;
+			padding-left: 10px;
+			padding-top: 5px;
+			font-size: 26px;
+			font-weight: lighter;
+			letter-spacing: -1px;
+			background-color: #FFF;
+			width: 100%;
+			height: 35px;
+			line-height: 18px;
+			color: #000;
+			border-bottom: 1px solid rgba(0,0,0,.2);
+			z-index: 10;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Helvetica Neue';
+			font-weight: lighter;
+		}
+		h3
+		{
+			font-size: 22px;
+			font-weight: lighter;
+		}
+		.page-title
+		{
+			font-weight: lighter;
+			font-size: 28px;
+			letter-spacing: -2px;
+			padding-top:0px;
+		}
+
+		.well
+		{
+			padding: 5px;
+			width:280px;
+			margin-left:0px;
+		}
+
+
+		.menuFrame
+		{
+			margin-top: 20px;
+			overflow:hidden; 
+			overflow-y:auto;
+		}
+		.menuFrame::-webkit-scrollbar {
+		    -webkit-appearance: none;
+		}
+
+		.menuFrame::-webkit-scrollbar:vertical {
+		    width: 11px;
+		}
+
+		.menuFrame::-webkit-scrollbar:horizontal {
+		    height: 11px;
+		}
+
+		.menuFrame::-webkit-scrollbar-thumb {
+		    border-radius: 8px;
+		    border: 2px solid white; /* should match background, can't be transparent */
+		    background-color: rgba(0, 0, 0, .5);
+		}
+		
+		.container-fluid
+		{
+			padding-left: 10px;
+		}
+
+		#side-menu
+		{
+			height: 415px;
+			box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+			border: 1px solid #999;
+		}
+
+		#menuAside
+		{
+			margin-top:50px;
+			position:fixed;
+		}
+
+		.member {
+			font-size: 14px;
+			color:#000;
+			background-color:#FFF;
+			border:1px solid #2fa4e7;
+		}
+		.member:hover {
+
+			background-color:#F6F6F6;
+		}		
+		.member-open .paramSignature{
+			font-size: 14px;
+			color: #2fa4e7;
+		}
+		.member-collapsed .paramSignature{
+			font-size: 14px;
+			color: #2fa4e7;
+		}
+		.routeTitle{
+		    cursor: pointer;
+		}
+
+		.genericAnnotation
+		{
+		    color:#2fa4e7;
+		}
+
+		.sourceBar
+		{
+			margin-top: -5px;
+		}
+
+
+
+.twitter-typeahead
+{
+	top: -5px;
+}
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+  margin-bottom: 0;
+  background-color: #F00;
+  border-radius: 20px;
+
+}
+
+.tt-hint
+{
+	top: 2px!important;
+
+    padding-left: 10px!important;  
+    width: 188px;
+    text-indent: 4px;
+}
+.tt-dropdown-menu {
+  min-width: 160px;
+  margin-top: 2px;
+  padding: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+
+.tt-suggestion {
+  display: block;
+  padding: 3px 20px;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+  color: #fff;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
+}
+
+.tt-suggestion.tt-is-under-cursor a {
+  color: #fff;
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+	</style>
+</head>
+
+<body>
+<div id="projectTitle">
+	<div id="btnCollapse" class="btn collapseSidebarButton btn-primary"><i class="icon-th-list icon-white"></i></div>
+	sfuture
+</div>	
+<div class="container-fluid">
+
+	<div id="menuAside">
+    <aside class="well span3 oc" id="side-menu" role="navigation">
+
+    	<div style="margin-left: 10px; margin-top: 10px;">
+			<input type="text" id="searchBox" class="search-query typeahead" placeholder="Search">
+		</div>
+		<div class="menuFrame" id="sideMenuFrame">
+		<ul id="menuContainer" class="nav nav-pills nav-stacked">
+			<li class="nav-header navTitle"><a href="index.html">INDEX</a></li>
+				<li class="divider"></li>
+				
+				
+					    <li id="navTitle_Classes" class="nav-header navTitle">
+                            <a class="handCursor" data-toggle="collapse" data-id="T_Classes" data-target="#collapse_Classes">Classes<span class="badge badge-info pull-right">1</span></a>
+                        </li>
+                        <li id="navContents_Classes">
+                            <div id="collapse_Classes" class="collapse">
+                                <ul class="nav nav-list" style="width:100%;margin-left:-8px;">
+                                    <li><a href="Future.html">Future</a></li>
+                            
+                                    </ul>
+                                </div>
+                            </li>
+                        
+					    <li id="navTitle_Callbacks" class="nav-header navTitle">
+                            <a class="handCursor" data-toggle="collapse" data-id="T_Callbacks" data-target="#collapse_Callbacks">Callbacks</a>
+                        </li>
+                        <li id="navContents_Callbacks">
+                            <div id="collapse_Callbacks" class="collapse">
+                                <ul class="nav nav-list" style="width:100%;margin-left:-8px;">
+                                    <li><a href="html#ApplyCallback">ApplyCallback</a></li><li><a href="html#FailCallback">FailCallback</a></li><li><a href="html#FilterCallback">FilterCallback</a></li><li><a href="html#FlatMapCallback">FlatMapCallback</a></li><li><a href="html#FoldCallback">FoldCallback</a></li><li><a href="html#MapCallback">MapCallback</a></li><li><a href="html#RecoverCallback">RecoverCallback</a></li><li><a href="html#RecoverWithCallback">RecoverWithCallback</a></li><li><a href="html#SuccessCallback">SuccessCallback</a></li><li><a href="html#TryCallback">TryCallback</a></li>
+                            
+                                    </ul>
+                                </div>
+                            </li>
+                        
+
+		</ul>
+		</div>
+
+		<script>
+			var searchMembers = [{"realName":"Future","link":"Future"},{"realName":"ApplyCallback","link":""},{"realName":"FailCallback","link":""},{"realName":"FilterCallback","link":""},{"realName":"FlatMapCallback","link":""},{"realName":"FoldCallback","link":""},{"realName":"MapCallback","link":""},{"realName":"RecoverCallback","link":""},{"realName":"RecoverWithCallback","link":""},{"realName":"SuccessCallback","link":""},{"realName":"TryCallback","link":""}];
+		</script>
+    </aside>
+	</div>
+    <div id="docContents" class="sideMenu sideMargin">
+
+		
+			<div style="width:100%">
+		
+				<div id="main">
+					
+
+
+	<h1 class="page-title">
+        Class:
+        Future
+        
+    </h1>
+<section>
+
+<header>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+<dt>
+    <a name="Future"></a>
+
+    <h4 class="name" id="Future"><span class="btn btn-mini btn btn-danger">C</span> new Future<span class="genericAnnotation">&#60;T&#62;</span>(  ) &rarr; {void}
+
+    
+
+    <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html"><div style="font-weight:lighter; float:right;" class="btn sourceBar"><i class="icon-eye-open"></i></div></a>
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Creates a new future with ES6 promise.
+The new future will be completed when the promise is completed.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+    
+    </div>
+
+   
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        <dl>
+            
+<dt>
+    <a name="apply"></a>
+
+    <h4 class="name" id=".apply"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> apply( callback: <span class="paramSignature">ApplyCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Creates a future with callback. Callback will be executed asynchronously.
+So the future is not completed when it is returned.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#ApplyCallback">ApplyCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="denodify"></a>
+
+    <h4 class="name" id=".denodify"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> denodify( fn: <span class="paramSignature">function</span>, thisArg: <span class="paramSignature">any</span>, args: <span class="paramSignature">any</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Creates a future with function and it's arguments. The last parameter of
+function should be the node style callback.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+		<th>Argument</th>
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>thisArg</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>args</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                    &lt;repeatable><br>
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="failed"></a>
+
+    <h4 class="name" id=".failed"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> failed( err: <span class="paramSignature">any</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a failed future if err is defined.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>err</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="find"></a>
+
+    <h4 class="name" id=".find"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> find( futures: <span class="paramSignature">Array&#46;&#60;Future&#46;&#60;T&#62;&#62;</span>, callback: <span class="paramSignature">FilterCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a future that holds the value which callback returns true.
+If no value contents the callback, the future holds null.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>futures</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="Future.html">Future</a>.&lt;T>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FilterCallback">FilterCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="firstCompletedOf"></a>
+
+    <h4 class="name" id=".firstCompletedOf"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> firstCompletedOf( futures: <span class="paramSignature">Array&#46;&#60;Future&#46;&#60;T&#62;&#62;</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns the first completed futures.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>futures</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="Future.html">Future</a>.&lt;T>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="fold"></a>
+
+    <h4 class="name" id=".fold"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> fold( futures: <span class="paramSignature">Array&#46;&#60;Future&#46;&#60;T&#62;&#62;</span>, base: <span class="paramSignature">U</span>, callback: <span class="paramSignature">FoldCallback</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Folds with the given futures and the given base value.
+The fold will be executed after all the given futures are completed
+successfully. And returns the first failed future if one of the future
+is failed</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>futures</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="Future.html">Future</a>.&lt;T>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>base</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">U</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FoldCallback">FoldCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+<div class="param-desc">
+    <p>Future<U></p>
+</div>
+
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="fromTry"></a>
+
+    <h4 class="name" id=".fromTry"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> fromTry( err: <span class="paramSignature">any</span>, value: <span class="paramSignature">T</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a failed future if err is defined.
+Returns a successful future if err is not defined.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>err</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">T</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="reduce"></a>
+
+    <h4 class="name" id=".reduce"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> reduce( futures: <span class="paramSignature">Array&#46;&#60;Future&#46;&#60;T&#62;&#62;</span>, callback: <span class="paramSignature">FoldCallback</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Reduces with the given futures and the callback.
+The reduce will be executed after all the given futures are completed
+successfully. And returns the first failed future if one of the future
+is failed</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>futures</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="Future.html">Future</a>.&lt;T>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FoldCallback">FoldCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+<div class="param-desc">
+    <p>Future<T></p>
+</div>
+
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="sequence"></a>
+
+    <h4 class="name" id=".sequence"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> sequence( futures: <span class="paramSignature">Array&#46;&#60;Future&#46;&#60;T&#62;&#62;</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Reduces futures to one future.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>futures</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="Future.html">Future</a>.&lt;T>></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="successful"></a>
+
+    <h4 class="name" id=".successful"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> successful( value: <span class="paramSignature">T</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a successful future that holds the given value.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">T</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="traverse"></a>
+
+    <h4 class="name" id=".traverse"><span class="btn btn-mini btn btn-inverse">S</span> <span class="btn btn-mini btn-success" title="public">M</span> traverse( args: <span class="paramSignature">Array&#46;&#60;T&#62;</span>, callback: <span class="paramSignature">FlatMapCallback</span> ) &rarr; { <span class='paramSignature'>Array.<Future.<U>></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Converts T[] to Future<U[]> with T[] and function(T =&gt; Future<U>).</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>args</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;T></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FlatMapCallback">FlatMapCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="andThen"></a>
+
+    <h4 class="name" id="andThen"><span class="btn btn-mini btn-success" title="public">M</span> andThen( callback: <span class="paramSignature">TryCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Applies the side-effect function and returns a new future with the result
+of this future.
+The result future is completed after this future is completed. So andThen
+chains keeps the order.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#TryCallback">TryCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+→ { 
+<span class="param-type"><a href="Future.html">Future</a>.&lt;T></span>
+
+ }
+
+<div class="param-desc">
+    <p>Holds the same result with this future.</p>
+</div>
+
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="collect"></a>
+
+    <h4 class="name" id="collect"><span class="btn btn-mini btn-success" title="public">M</span> collect( callback: <span class="paramSignature">SuccessCallback</span> ) &rarr; { <span class='paramSignature'>Future.<U></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new future that holds the value that callback is applied.
+Or returns a failed future if callback returns undefined. This callback
+is applied only when this future is completed successfuly.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#SuccessCallback">SuccessCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="fallbackTo"></a>
+
+    <h4 class="name" id="fallbackTo"><span class="btn btn-mini btn-success" title="public">M</span> fallbackTo( future: <span class="paramSignature">Future&#46;&#60;T&#62;</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new future. The new future will be failed when both this future
+and the passed future is failed. The reason will be the same with this
+future.
+The new future holds the same value with this future, if this future is
+completed successfully. And holds the same value with the passed future,
+if this future is failed and the passed future is successful.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>future</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Future.html">Future</a>.&lt;T></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>fallback future</p></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="filter"></a>
+
+    <h4 class="name" id="filter"><span class="btn btn-mini btn-success" title="public">M</span> filter( callback: <span class="paramSignature">FilterCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new future that holds the filtered value with callback.
+If callback returns true, the new future holds the same value with this
+future. If callback retruns false, the new future will be failed.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FilterCallback">FilterCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="flatMap"></a>
+
+    <h4 class="name" id="flatMap"><span class="btn btn-mini btn-success" title="public">M</span> flatMap( callback: <span class="paramSignature">FlatMapCallback</span> ) &rarr; { <span class='paramSignature'>Future.<U></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>If this future is completed successfully, returns a new future that is
+the same with callback result. So callback should return future.
+If this future is failed, the new future will be failed with the same
+reason with this future.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FlatMapCallback">FlatMapCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="foreach"></a>
+
+    <h4 class="name" id="foreach"><span class="btn btn-mini btn-success" title="public">M</span> foreach( callback: <span class="paramSignature">SuccessCallback</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Does nothing when this future failed.
+If this future completed successfully, executes callback.
+It is simillar to <a href="Future.html#onSuccess">Future#onSuccess</a>, but returns void.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#SuccessCallback">SuccessCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="map"></a>
+
+    <h4 class="name" id="map"><span class="btn btn-mini btn-success" title="public">M</span> map( callback: <span class="paramSignature">MapCallback</span> ) &rarr; { <span class='paramSignature'>Future.<U></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new future that callback is applied when this future is
+completed successfully.
+If this future is failed, the new future will be failed with the same
+reason with this future.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#MapCallback">MapCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="nodify"></a>
+
+    <h4 class="name" id="nodify"><span class="btn btn-mini btn-success" title="public">M</span> nodify( callback: <span class="paramSignature">TryCallback</span> )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Receives node-style callback. The callback is executed after this future
+completed.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#TryCallback">TryCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="onComplete"></a>
+
+    <h4 class="name" id="onComplete"><span class="btn btn-mini btn-success" title="public">M</span> onComplete( callback: <span class="paramSignature">TryCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Executes callback when this future is completed.
+It is similar to <a href="Future.html#andThen">Future#andThen</a>, but it returns this future itself.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#TryCallback">TryCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="onFailure"></a>
+
+    <h4 class="name" id="onFailure"><span class="btn btn-mini btn-success" title="public">M</span> onFailure( callback: <span class="paramSignature">FailCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Executes callback when this future is failed.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FailCallback">FailCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="onSuccess"></a>
+
+    <h4 class="name" id="onSuccess"><span class="btn btn-mini btn-success" title="public">M</span> onSuccess( callback: <span class="paramSignature">SuccessCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Executes callback when this future is completed successfully.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#SuccessCallback">SuccessCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="recover"></a>
+
+    <h4 class="name" id="recover"><span class="btn btn-mini btn-success" title="public">M</span> recover( callback: <span class="paramSignature">RecoverCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Takes a callback and executes callback when this future is failed. And
+returns new future holds the callback result.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#RecoverCallback">RecoverCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>It is executed when this future failed.</p></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="recoverWith"></a>
+
+    <h4 class="name" id="recoverWith"><span class="btn btn-mini btn-success" title="public">M</span> recoverWith( callback: <span class="paramSignature">RecoverWithCallback</span> ) &rarr; { <span class='paramSignature'>Future.<T></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Takes a callback that returns Future. And executes callback when this
+future is failed. And returns a new future that is the same with callback
+result.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#RecoverWithCallback">RecoverWithCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>It is executed when this future failed.</p></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="transform"></a>
+
+    <h4 class="name" id="transform"><span class="btn btn-mini btn-success" title="public">M</span> transform( successCallback: <span class="paramSignature">SuccessCallback</span>, failCallback: <span class="paramSignature">FailCallback</span> ) &rarr; { <span class='paramSignature'>Future.<U></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>If this future is completed successfully, it returns a future that holds
+the successCallback applied.
+And if this future is failed, it returns a failed future. The reason
+will be the result of failCallback.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>successCallback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#SuccessCallback">SuccessCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>failCallback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#FailCallback">FailCallback</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+
+        
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="withFilter"></a>
+
+    <h4 class="name" id="withFilter"><span class="btn btn-mini btn-success" title="public">M</span> withFilter(  )
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Same with <a href="Future.html#filter">Future#filter</a>.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+ 
+        
+            
+<dt>
+    <a name="zip"></a>
+
+    <h4 class="name" id="zip"><span class="btn btn-mini btn-success" title="public">M</span> zip( future: <span class="paramSignature">Future&#46;&#60;U&#62;</span> ) &rarr; { <span class='paramSignature'>Future.<Array.<any>></span> }
+
+    
+
+    </h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new future that holds the result of this and the passed future.
+The zip method of scala returns a future of tuple, but sfuture's one
+holds size 2 array.</p>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>future</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Future.html">Future</a>.&lt;U></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <span>Returns:</span>
+    
+            
+
+→ { 
+<span class="param-type"><a href="Future.html">Future</a>.&lt;Array.&lt;any>></span>
+
+ }
+
+<div class="param-desc">
+    <ul>
+<li>The array size should be 2.</li>
+</ul>
+</div>
+
+
+
+        
+    
+    
+</dd>
+
+ 
+        </dl>
+    
+
+    
+
+    
+
+    
+<dl class="details">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <!-- xperiments
+    
+    <dt style="font-weight:lighter;" class="btn"><i class="icon-eye-open"></i> <a href="-_home_ruwin126_workspace_sfuture_src_future.ts.html">/home/ruwin126/workspace/sfuture/src/future.ts</a></dt>
+    -->
+
+    
+
+    
+
+    
+</dl>
+
+</article>
+
+</section>
+
+
+
+
+				</div>
+
+				<div class="clearfix"></div>
+				<footer>
+					
+					
+						<span class="copyright">
+						sfuture Copyright © 2015 ruwin126.
+						</span>
+									<br />
+									
+						<span class="jsdoc-message">
+						Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.2</a>
+						on Mon Aug 31 2015 22:10:03 GMT+0900 (KST) using the <a href="https://github.com/xperiments/TSDoc">TSDoc template</a>.
+						</span>
+				</footer>
+			</div>
+			<!--
+			
+			<div class="span3">
+				<div id="toc"></div>
+			</div>
+			
+			-->
+			<br clear="both">
+		</div>
+
+	</div>
+
+	<script src="scripts/sunlight.js"></script>
+	<script src="scripts/sunlight.javascript.js"></script>
+	<script src="scripts/sunlight-plugin.doclinks.js"></script>
+	<script src="scripts/sunlight-plugin.linenumbers.js"></script>
+	<script src="scripts/sunlight-plugin.menu.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.scrollTo.js"></script>
+	<script src="scripts/jquery.localScroll.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+
+
+
+	<script>  Sunlight.highlightAll({lineNumbers:false,  showMenu: true, enableDoclinks :true}); </script>
+
+	<script>
+		$( function () {
+
+			var searchItems = [];
+			var searchMap = {};
+			var mapName = "";
+			for( var i=0; i<searchMembers.length; i++ )
+			{
+				realName = searchMembers[i].realName;
+				searchItems.push( realName );
+				searchMap[ realName ] = searchMembers[ i ];
+			}
+
+
+			$('.typeahead').typeahead({
+			  source: searchItems,
+			  matcher: function(item) {
+			  	//console.log('aaa'+item, this.query, item.indexOf( this.query.toLowerCase() )==-1?false:true)
+                // evaluate item variable and return true if the item was matched.
+                return item.toLowerCase().indexOf( this.query.toLowerCase() )==-1?false:true;
+             },
+			  updater: function (item) {
+					window.location.href = searchMap[ item ].link+'.html';
+			  }
+
+			});
+
+
+            // Move Tutorials to bottom
+            //$('#menuContainer').append($('#navTitle_Tutorials'));
+            //$('#menuContainer').append($('#navContents_Tutorials'));
+			$(window).resize(function() {
+			  $('#side-menu').height( $(window).height()-70 );
+			  $('#sideMenuFrame').height( $(window).height()-140 );
+			  if( $(window).width() <480 )
+			  {
+			  	$('#side-menu').hide();
+				$('#docContents').removeClass('sideMenu');
+			  }
+			});
+
+			$(window).trigger('resize')
+			$('#btnCollapse').click(function()
+			{
+				$('#side-menu').toggle();
+				$('#docContents').toggleClass('sideMenu');
+
+			})
+			$('#btnHome').click(function()
+			{
+				document.location.href="index.html"
+
+			})		
+
+			$('.sourceBar').click(function(){})
+			var lastMenuSelection = window.localStorage.getItem('lastMenuSelection') || null;
+			if( lastMenuSelection ) $('a[data-id='+lastMenuSelection+']').click();
+			$('a[data-toggle=collapse]').click(function(){
+				if( lastMenuSelection == $(this).attr('data-id') ) return;
+				if( lastMenuSelection ) $('a[data-id='+lastMenuSelection+']').click();
+				lastMenuSelection = $(this).attr('data-id');
+				window.localStorage.setItem('lastMenuSelection', lastMenuSelection )
+			});	
+
+
+		} );
+	</script>
+
+	
+	<script>
+		$( function () {
+			$('#main').localScroll({
+				offset: { top: 56 } //offset by the height of your header (give or take a few px, see what works for you)
+			});
+			$(".routeTitle").on('click', function(){
+			    $(this).next().slideToggle();
+			});
+			$( "dt h4.name" ).each( function () {
+				var $this = $( this );
+				//var icon = $( "<i/>" ).addClass( "icon-plus-sign" ).addClass( "pull-right" );
+				var dt = $this.parents( "dt" );
+				var children = dt.next( "dd" );
+
+				//$this.append( icon ).css( {cursor : "pointer"} );
+				$this.addClass( "member-collapsed" ).addClass( "member" );
+
+				children.hide();
+				$this.toggle( function () {
+					//icon.addClass( "icon-minus-sign" ).removeClass( "icon-plus-sign" );
+					$this.addClass( "member-open" ).removeClass( "member-collapsed" );
+					children.slideDown();
+				}, function () {
+					//icon.addClass( "icon-plus-sign" ).removeClass( "icon-minus-sign" );
+					$this.addClass( "member-collapsed" ).removeClass( "member-open" );
+					children.slideUp();
+				} );
+			} );
+			$('.sourceBar').click(function(event){event.stopPropagation();})
+		} );
+	</script>
+	
+
+</body>
+</html>
