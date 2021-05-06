@@ -1,0 +1,8 @@
+title: sgkim126
+description: Seulgi Kim
+google_analytics: UA-50288041-1
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
