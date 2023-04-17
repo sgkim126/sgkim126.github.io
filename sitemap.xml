@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.seulgi.kim/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/04/csi-el-ed.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/csi-sequence-cursor.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/control-sequence.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/carriage-return.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/termios.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/blog-post_16.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/blog-post.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2023-03-16T12:40:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/history-of-escape-codes.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/11/cpp-enum-class.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/01/raii.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/mongodb-objectid.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2021/05/python-cache-decorator.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2023/03/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2021/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2021/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2021/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2020/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2020/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/12/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/10/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/07/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/05/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/12/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/11/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/01/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/12/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/07/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/03/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/02/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/01/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/07/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/03/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/11/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/07/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/05/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/02/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/01/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/12/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/11/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/10/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/07/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/06/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/05/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/03/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/01/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2013/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2013/11/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2013/09/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2013/08/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2013/04/</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/C%2B%2B</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/JavaScript</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/network</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ECMAScript</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/summary</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ECMAScript%206</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/scala</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/distributed%20system</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/rust</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/modern%20c%2B%2B</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/security</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/consensus%20algorithm</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/database</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/escape%20code</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/C%2B%2B%2011</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/TypeScript</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/terminal</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/C</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/C%2B%2B11</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/code%20quality</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ethereum</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/monad</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/programming%20language</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Python</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Raft</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/implicit</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/multithreading</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/sharding</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/web</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Cpp%20Core%20Guidelines</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/MongoDB</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Shard</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/blockchain</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/lifetime</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/promise</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/scope</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/value%20category</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Byzantine%20fault%20tolerance</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/CSI</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/DBMS</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Design%20pattern</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/MySQL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/asynchronous</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/availability</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/coding%20style</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/compiler</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cryptography</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/float</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/function</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/garbage%20collection</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/graphics</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/irc</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/java</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/object</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/pointer</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/posix</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/replication</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/state%20trie</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/type%20checking</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/volatile</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/zookeeper</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/BFT</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Byzantine%20Failure</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/C%23</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/CAP%20theorem</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/CoffeeScript</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Flow</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Fluentd</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/GIL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Global%20Interpreter%20Lock</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ISO</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ISO%208601</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Log%20Aggregator</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/OSI</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Option</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/RAII</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/RSS</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/SSL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/UI</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/VSync</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/WeeChat</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/annotation</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/bitcoin</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cli</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/consistency</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/const</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/control%20sequence</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/deprecated</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/double%20buffering</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/exception</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/future</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/go</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/information%20distance</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/iterator</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/linkage</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/math</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/merkle%20patricia%20trie</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/null</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/optimization</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/owner</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/p2p</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/quantum%20computing</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/review</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/round</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/server</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/similarity</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/static%20typing</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/storage</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/swap</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/trie</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/undefined</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/2%20phase%20commit</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/CPython</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/CodeChain</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Diffie%E2%80%93Hellman%20key%20exchange</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ED</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/EL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Endianness</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/FLP%20impossibility</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Flume</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/GNU</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/GSL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/GateOne</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Glowing%20Bear</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/GraphQL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/IEEE%20754</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Implicit%20class</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Infinity</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Intermediate%20Representation</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Loan%20pattern</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Maybe</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/NCD</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/NGD</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/NaN</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Normalized%20Google%20Distance</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ORM</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/OS</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Object%20Oriented</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Object%20slicing</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ObjectID</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Primary%20Shard</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/PyPy</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/REST</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/RLP</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Recursive%20Length%20Prefix</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Relay</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/RwLock</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/SPI</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/SQL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/SQLite</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Scribe</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Service%20Provider%20Interface</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Sharded%20Cluster</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Symbol</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/TDD</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/TTS</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Try</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/UTXO</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/UX</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/Visual%20C%2B%2B</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/WebGL</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/WebOS</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/actor%20model</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/akka</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/algebraic%20data%20type</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/alias</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/android</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/anti-pattern</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/array</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/arrow</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/assert</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/atomic%20commit</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/automatic%20memory%20management</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/balance%20theorem</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/blake2</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/bug</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cache</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/carriage%20return</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/case%20class</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/chromium%20os</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/class</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cloudflare</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/code%20metrics</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/code%20review</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/compatibility</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/compression</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/concurrency</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/const_cast</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/crash-only%20software</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cryptocurrency</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/curly%20braces</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/cyclomatic%20complexity</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/data%20mining</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/date</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/decltype</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/decorator</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/encoding</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ensemble</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/enum</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/enum%20class</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/error%20handling</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/extension%20method</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/facade%20pattern</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/fat%20arrow</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/flask</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/fork</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/generic%20programming</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/git</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/graph</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/hoisting</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/html5</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/https</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/implicit%20converter</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/implicit%20parameter</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/interchain%20communication</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/introspection</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/kademlia</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/lambda%20function</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/leader%20election</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/lender-lendee%20pattern</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/let</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/lint</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/linux</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/log%20replication</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/logstash</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/loop</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/lua</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/memory</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/memory%20barrier</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/memory%20fence</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/memory%20leak</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/merkle%20tree</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/modifier</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/morse%20code</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/mozilla</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/network%20overlay</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/node.js</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/normalized%20compression%20distance</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/npm</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ownership</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/pack%20expansion</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/parameter%20pack</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/phantom%20type</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/property</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/prototype</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/reflection</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/regular%20expression</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/rhino</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/same-origin%20policy</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/sealed</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/secure%20tree</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/shard%20key</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/shutdown%20hook</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/slack</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/span</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/sprite</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/ssh</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/state%20trie%20pruning</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/static</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/syntax</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/tagged%20pointer</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/template</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/termios</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/triple%20buffering</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/type%20conversion</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/type%20guard</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/uriirc</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/variadic%20template</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/version%20control%20system</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/vim</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/zkSNARKs</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/znode</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/%EA%B0%9C%EB%B0%9C</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search/label/%EA%B4%80%EB%A6%AC</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2021/08/iterator-adapters.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2020/06/loop-in-rust.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2020/06/loop.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/12/rust-lifetime-elision.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/10/why-do-programmers-take-longer-than-expected.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-10-21T03:21:00%2B09:00&amp;max-results=7&amp;start=7&amp;by-date=false</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/01/assert.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/01/blog-post.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/08/mongodb-sharding-3-shard-key.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/08/mongodb-sharding-3-shard-key.html?showComment=1407374841738</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/08/mongodb-sharding-1-sharded-cluster.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/scala-implicit-keyword-4.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/scala-implicit-keyword-3-implicit.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/scala-implicit-keyword-2-implicit-class.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/scala-implicit-keyword-1-implicit_6.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2014/09/scala-implicit-keyword-0.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2023-03-08T00:42:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2023-04-16T23:59:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2021-06-11T16:04:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2021-08-02T02:19:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2020-06-04T02:24:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/07/promise-all-tuple.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/05/rust-type-conversion.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/04/garbage-collection-and-memory-leak.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2019/04/managed-language-vs-unmanaged-langauge.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-04-06T23:58:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-12-28T03:04:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-10-21T03:21:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-07-14T23:58:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2019-05-12T22:02:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/12/rwlock.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/11/rust.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/08/chromium-os.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/08/rust--ownership.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/06/skewed-merkle-tree.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/06/w22.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/w21.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/safety-liveness-in-blockchain.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/w20.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/byzantine-failure-why-blockchain-is-hard.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/w19.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/ethereum-secure-tree.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/w18.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/modified-merkle-patricia-trie.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/05/two-phase-commit.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/w17.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/state-trie-pruning.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/w16.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/byzantine-fault-tolerance-n-3f-1.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/w15.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/ethereum-sharding.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/w14.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/04/w13.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/alice-and-bob_29.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/ethereum-eclipse-attack.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/w12.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-03-25T19:17:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-12-27T02:33:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-11-20T19:10:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-08-09T19:28:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-06-03T02:48:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-05-02T02:53:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-04-01T19:40:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/cap-theorem.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/w10.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/03/w09.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-03-04T22:33:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/you-should-read-good-code.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/no-flexible-ssl.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/diffie-hellman-key-exchange.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/c-tagged-pointer.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/i-do-not-use-coffeescript-any-more.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/copy-elision.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/cppcoreguidelines-not-null.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/02/cppcoreguidelines-span-owner.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-02-07T02:30:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2018/01/rlp-encoding.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2018-01-11T02:11:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/12/raft-timing.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/12/raft-consistency.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/12/raft-log-replication.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/12/raft-leader-election.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/raft-consensus-algorithm.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/cpp-core-guidelines-const-cast.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/cpp-as-if-rule.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/vcpp-volatile.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/cpp-memory-barrier.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/11/cpp-volatile.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/cpp-core-guidelines.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/crash-only-software.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/why-high-availability-server-is-hard.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/cpp-array-to-pointer-decay.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/10/cpp-variadic-template.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/08/cpp-static.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/08/cpp-linkage.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/08/cpp-scope.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/07/cpp-object-storage.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/07/modern-cpp-glvalue-prvalue.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/06/modern-cpp-lvalue-rvalue.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/06/cpp11-value-category.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/04/round.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/03/round-12345.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/03/javascript-ieee754.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/02/cpp-exception-in-constructor.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/01/python-negative-index.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/01/python-swap.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2017/01/lua-swap.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-01-08T18:32:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-12-05T00:49:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-11-18T01:35:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-10-09T01:10:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-08-02T02:54:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-07-12T00:44:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-06-17T21:16:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-04-30T01:29:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-03-05T20:36:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2017-02-10T02:23:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/08/web-speechsynthesis-tts-api.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/07/go.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/06/normalized-google-distance.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/06/normalized-compression-distance.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/04/balanced-unbalanced-graph.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/03/osi-model.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/03/android-asynctask.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/03/fork-in-multithread.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/flow-vs-typescript.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/reflection-introspection.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/ecmascript-6-class.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/ecmascript-6-property.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/ecmascript-6-method_8.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2016/01/algebraic-data-type-and-static-type-checking-is-needed.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-01-07T19:53:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-08-18T17:30:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-07-31T00:14:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-06-10T00:52:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-04-08T04:16:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/search?updated-max=2016-03-04T02:04:00%2B09:00&amp;max-results=7</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/size-of-empty-class-is-not-zero.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/null-object-pattern.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/why-the-confirm-password-field-must-live.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/ecmascript-6-resolved-promise-cannot-be-nested.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/ecmascript-6-promise.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.seulgi.kim/2015/09/monad-promise.html</loc>
+  <lastmod>2023-04-17T13:04:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
